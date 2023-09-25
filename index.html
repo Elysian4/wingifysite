@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./styles.css" />
+  	
+  	
+  	
+  	
+</head>
+<body>
+<div class="parent">
+    <div class="dekstopbg"></div>
+    <div class="loginForm">
+ 
+        <div class="imgbx">
+            <img class="fimg" src="image.png"/>
+        </div>
+        <div class="detailbox">
+            <div>
+                <p class="p1">Create an account</p>
+            </div>
+            <div class="box1">
+                <p class="pcont">Enter your email</p>
+                <div>
+                    <input class="input1" type="text"/>
+                </div>
+            </div>
+            
+            <div class="dobbox">
+                <p class="pcont">Date of Birth <span>(optional)</span></p>
+                <div class="dobcont">
+                    <div class="cont">
+                        <label class="label1" for="day">Date</label>
+                        <select name="day" id="day"></select>
+                    </div>
+                    <div class="cont">
+                        <label class="label1" for="month">Month</label>
+                        <select name="month" id="month"></select>
+                    </div>
+                    <div class="cont">
+                        <label class="label1" for="year">Year</label>
+                        <select name="year" id="year">Year:</select>
+                    </div>
+                </div>
+            </div>
+            <div class="pass">
+                <p class="pcont">Choose a strong password</p>
+                <div>
+                    <input class="input1" type="text"/>
+                </div>
+            </div>
+            <div class="option">
+                <p class="pcont">Are you an agency or individual?</p>
+                <div class="opcont">
+                    <div>
+                        <input class="rclass" type="radio" id="contactChoice1" name="contact" value="Individual" />
+                        <label class="label2" for="contactChoice1">Individual</label>
+                    </div>
+    
+                    <div>
+                        <input class="rclass" type="radio" id="contactChoice2" name="contact" value="Agency" />
+                        <label class="label2" for="contactChoice2">Agency</label>
+                    </div>
+                </div>
+            </div>
+            <button class="button" type="submit" name="submit">
+                Submit
+            </button>
+        </div>
+ 
+    </div>
+</div>
+  	
+  	
+  	
+   <script src="logic.js"></script>
+</body>
+</html>
